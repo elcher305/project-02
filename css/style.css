@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family: 'LatoHeavy';
+    src: url('../fonts/Lato-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
