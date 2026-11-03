@@ -1,54 +1,83 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Lato', sans-serif;
-    max-width: 1366px;
-    margin: 0 auto;
-
+    color: #333;
+    background-color: #fff;
+    font-family: 'Outfit', sans-serif;
 }
 
-header {
-    justify-content: center;
-
-}
-
-nav {
-    background-color: #262D33;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 17px 113px;
-    text-transform: uppercase;
-}
-
-nav a {
-    color: white;
-    font-size: 14px;
-    display: inline-block;
+a {
     text-decoration: none;
+    color: inherit;
 }
 
-.logo {
-    margin-left: 143px;
-    margin-top: 51px;
-    margin-bottom: -22px;
+.bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200;
+    margin: 0 188px;
 }
 
-#title {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    display: inline-block;
-    color: #262D33;
-    font-size: 44px;
-    justify-content: center;
-    text-align: center;
-    height: 40px;
-    margin: 22px 0 22px 130px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 1px solid #E3E3E3;
+
 }
 
-#subtitle {
-    font-family: 'Lato', sans-serif;
-    color: #4B5157;
-    margin-bottom: 32px;
-    margin-left: 15px;
+.top-bar {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #272727;
+    padding: 10px 0;
+    border: 1px solid #E3E3E3;
 }
+
+/* --- 2. Main Header --- */
+.main-header {
+    padding: 15px 190px;
+    background-color: #fff;
+    margin: 0;
+}
+
+.main-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Меню */
+.nav-list {
+    display: flex;
+    gap: 40px; /* Расстояние между пунктами меню */
+    list-style: none;
+    font-weight: 300;
+}
+
+.nav-list a {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #ff5722; /* Оранжевый при наведении или активности */
+}
+
+/* Иконки действий */
+.header-actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
