@@ -15,6 +15,9 @@ a {
     color: inherit;
 }
 
+
+/* шапка сайта */
+
 .bar-inner {
     display: flex;
     justify-content: space-between;
@@ -32,7 +35,7 @@ a {
     border: 1px solid #E3E3E3;
 }
 
-/* --- 2. Main Header --- */
+
 .main-header {
     padding: 15px 190px;
     background-color: #fff;
@@ -45,8 +48,8 @@ a {
     align-items: center;
 }
 
-
 /* Меню */
+
 .nav-list {
     display: flex;
     gap: 40px; /* Расстояние между пунктами меню */
@@ -66,6 +69,7 @@ a {
 }
 
 /* Иконки действий */
+
 .header-actions {
     display: flex;
     gap: 25px;
@@ -104,6 +108,8 @@ a {
     object-fit: contain;
 }
 
+/* Раздел преимуществ */
+
 .features-inner {
     display: flex;
     font-weight: 200;
@@ -112,46 +118,97 @@ a {
 
 .delivery-text {
     font-size: 22px;
-    margin-right: 63px;
-    width: 327px;
 }
 
-.delivery-text p{
+.delivery-title {
+    margin-left: 38px;
+}
+
+.delivery-subtitle {
+    margin-left: 38px;
+    width: 350px;
     font-size: 21px;
     margin-top: 5px;
 }
 
 .text-guarantee {
     font-size: 22px;
-    margin-right: 63px;
+    margin-right: 45px;
     width: 327px;
 }
 
-.text-guarantee p{
+.guar-title {
+    margin-left: 38px;
+}
+
+.guar-subtitle{
     font-size: 21px;
     margin-top: 5px;
+    margin-left: 39px;
+    width: 350px;
 }
 
 .text-offers {
     font-size: 22px;
-    margin-right: 63px;
+    margin-right: 65px;
     width: 327px;
 }
 
-.text-offers p{
+.offer-title {
+    margin-left: 38px;
+}
+
+.offer-subtitle{
     font-size: 21px;
     margin-top: 5px;
+    margin-left: 39px;
+    width: 350px;
 }
 
 .text-payment {
     font-size: 22px;
-    margin-right: 63px;
     width: 327px;
 }
 
-.text-payment p{
-    font-size: 21px;
-    margin-top: 5px;
+.pay-title {
+    margin-left: 38px;
 }
 
+.pay-subtitle{
+    font-size: 21px;
+    margin-top: 5px;
+    margin-left: 39px;
+    width: 350px;
+}
 
+.basket-cl {
+    position: absolute;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.guar-img {
+    position: absolute;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.offer-img {
+    position: absolute;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.secure-img {
+    position: absolute;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+/* Раздел категорий */
+
+.categories-title {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 0 190px;
+}
