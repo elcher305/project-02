@@ -207,8 +207,35 @@ a {
 
 /* Раздел категорий */
 
+.categories {
+    margin: 0 190px;
+}
+
+.categories-inner {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
 .categories-title {
     font-size: 30px;
     font-weight: 200;
-    margin: 0 190px;
+    padding-right: 14px;
 }
+
+/* Более компактный код для карточек */
+.category-card {
+    width: 240px;
+    height: 296px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Прижимаем текст к низу */
+    align-items: center;       /* Центрируем текст по горизонтали */
+    padding-bottom: 35px;      /* Отступ снизу, как у вас было */
+    cursor: pointer; /* Чтобы было понятно, что это кликабельно */
+}
+
