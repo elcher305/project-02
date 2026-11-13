@@ -23,13 +23,6 @@ a {
     margin: 0 188px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    border: 1px solid #E3E3E3;
-
-}
 
 .top-bar {
     background-color: #FFFFFF;
@@ -75,9 +68,90 @@ a {
 /* Иконки действий */
 .header-actions {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
 }
 
+.hero {
+    background-color: #F5F5F5; /* Светло-серый фон как на макете */
+    padding: 60px 0;
+    overflow: hidden;
+    height: 678px;
+}
+
+.hero::before {
+    content: '';
+    width: 800px;
+    height: 800px;
+    background-color: #EEEEEE; /* Чуть темнее фона */
+    border-radius: 50%;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end; /* Картинка справа */
+    position: relative;
+}
+
+.hero-image {
+    position: absolute;
+    z-index: 1; /* Картинка поверх круга */
+    max-width: 100%;
+    bottom: 180px;
+    left: 941px;
+    max-height: 612px;
+    object-fit: contain;
+}
+
+.features-inner {
+    display: flex;
+    font-weight: 200;
+    margin: 140px 190px;
+}
+
+.delivery-text {
+    font-size: 22px;
+    margin-right: 63px;
+    width: 327px;
+}
+
+.delivery-text p{
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.text-guarantee {
+    font-size: 22px;
+    margin-right: 63px;
+    width: 327px;
+}
+
+.text-guarantee p{
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.text-offers {
+    font-size: 22px;
+    margin-right: 63px;
+    width: 327px;
+}
+
+.text-offers p{
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.text-payment {
+    font-size: 22px;
+    margin-right: 63px;
+    width: 327px;
+}
+
+.text-payment p{
+    font-size: 21px;
+    margin-top: 5px;
+}
 
 
