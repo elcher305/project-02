@@ -81,6 +81,7 @@ a {
     padding: 60px 0;
     overflow: hidden;
     height: 678px;
+    word-spacing: 0.2em;
 }
 
 .hero::before {
@@ -106,6 +107,14 @@ a {
     left: 941px;
     max-height: 612px;
     object-fit: contain;
+}
+
+.hero-title {
+    position: absolute;
+    font-size: 51px;
+    font-weight: 200;
+    bottom: 542px;
+    left: 284px;
 }
 
 /* Раздел преимуществ */
@@ -238,4 +247,68 @@ a {
     padding-bottom: 35px;      /* Отступ снизу, как у вас было */
     cursor: pointer; /* Чтобы было понятно, что это кликабельно */
 }
+
+
+.selling {
+    margin: 140px 190px;
+}
+
+.selling-title {
+    font-size: 30px;
+    font-weight: 200;
+    padding-right: 20px;
+}
+
+.selling-inner {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.selling-card {
+    width: 292px;
+    height: 393px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Прижимаем текст к низу */
+    align-items: center;       /* Центрируем текст по горизонтали */
+    padding-bottom: 35px;      /* Отступ снизу, как у вас было */
+    cursor: pointer; /* Чтобы было понятно, что это кликабельно */
+}
+
+.text-pay {
+    margin-top: 9px;
+    color: #ff5722;
+}
+
+.sale {
+    background-color: #F5F5F5; /* Светло-серый фон как на макете */
+    overflow: hidden;
+    height: 784px;
+}
+
+.sale-image {
+    position: absolute;
+    left: 258px;
+    margin-top: 140px;
+    width: 676px;
+    height: 504px;
+}
+
+.sale-text {
+    position: absolute;
+    font-size: 51px;
+    font-weight: 200;
+    width: 571px;
+    height: 128px;
+    margin-left: 1140px;
+    margin-top: 215px;
+}
+
+
+
 
